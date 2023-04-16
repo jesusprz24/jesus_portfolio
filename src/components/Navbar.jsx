@@ -1,44 +1,27 @@
 import React from "react";
-/*import {FaBars, FaTimes} from 'react-icons/fa'*/
-/*import Logo from '..//assets/logo.png'*/
 
-const Navbar = () => {
-    return (
-        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
-            <div>
-                {/* <img src={Logo} alt="Logo Image" style={{ width: 50px}} /> */}
-            </div>
-
-            {/*menu*/}
-            <div>
-                <ul className="flex">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Skills</li>
-                    <li>Work</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
-
-            {/* Hamburger */}
-            <div className="hidden">
-                {/* <FaBars /> */}
-            </div>
-            {/* Mobile Menu */}
-            <div>
-                <ul className="hidden">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Skills</li>
-                    <li>Work</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
-
-            {/* Social Icons */}
-
+function Navbar() {
+  return (
+    <nav className="bg-gray-800 px-6 py-4">
+      <div className="container mx-auto flex justify-between items-center">
+        <a className="text-white font-bold text-xl" href="/">
+          Logo
+        </a>
+        <div className="flex items-center">
+          <a className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium" href="/">
+            Home
+          </a>
+          <a className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium" href="/">
+            About
+          </a>
+          <a className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium" href="/">
+            Contact
+          </a>
         </div>
-    )
+      </div>
+    </nav>
+  );
 }
+
 
 export default Navbar

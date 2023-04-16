@@ -1,9 +1,10 @@
-import Navbar from "./components/Navbar";
+import React from 'react';
+import AboutMe from './AboutMe';
 
 function App() {
   return (
     <div>
-      <Navbar />
+      <AboutMe />
     </div>
   );
 }
