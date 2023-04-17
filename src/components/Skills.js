@@ -12,8 +12,7 @@ export default function Skills() {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            While I am very artistic I am also good with technology. The technology that I strive at the most is HTML, CSS,
-            Javascript, React, Figma and Adobe. Being artistic allows me to get in touch better with Front End Development. But 
+            While I am very artistic I am also good with technology. Being artistic allows me to get in touch better with Front End Development. But 
             in order to be a better developer I will continue to work on the back end more and more until I have a good understanding of it.
           </p>
         </div>

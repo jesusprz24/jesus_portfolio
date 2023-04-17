@@ -12,10 +12,8 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            This is a group project that I made along side some of my peers during my coding
-            bootcamp. The basic premise of the project is an app that will teach beginners about 
-            crypto currency. Using a real time data api the user can see when is a good time to buy
-            and sell crypto. At the end the user will be prompted with how much the won or lost.
+            These are group projects that I made along side some of my peers during my coding
+            bootcamp.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
