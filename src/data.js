@@ -27,12 +27,27 @@ export const projects = [
 
   export const skills = [
     {
-      title: "Figma",
-      subtitle: "Figma Art",
-      description: 
-      "I use Figma to make websites look pretty",
+      name: "JavaScript",
     },
+    {
+      name: "React",
+    },
+    {
+      name: "HTML",
+    },
+    {
+      name: "CSS",
+    },
+    {
+      name: "Figma",
+    },
+    {
+      name: "Adobe",
+    },
+  
+    
   ];
+  
 
   export const testimonials = [
     {
@@ -40,5 +55,5 @@ export const projects = [
       subtitle: "People who like me",
       description: 
       "I like this"
-    }
-  ]
+    },
+  ];
