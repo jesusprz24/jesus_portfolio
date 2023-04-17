@@ -54,7 +54,7 @@ export const projects = [
       quote:
         "He is the most creative/artistic person I know. The way he is able to think of ideas for websites blows me away.",
       name: "John Minney",
-      company: "Code Network",
+      company: "LightCast.io",
       // image: "",
     },
     {
@@ -68,7 +68,7 @@ export const projects = [
       quote:
         "He is a great developer and has a knack for improving his craft",
       name: "Riley Peterson",
-      company: "Independent Software Engineer",
+      company: "Autodesk",
       // image: "",
     },
   ];
