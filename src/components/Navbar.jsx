@@ -3,20 +3,54 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div>
-      <div>
-        Jesus Perez Alvarado
+    <div className="bg-gray-900 text-white">
+      <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+        <div className="text-xl font-bold">Jesus Perez Alvarado</div>
+        <ul className="flex space-x-4">
+          <li>
+            <Link
+              to="/"
+              className="hover:text-blue-500 transition-colors duration-300"
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/about"
+              className="hover:text-blue-500 transition-colors duration-300"
+            >
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/projects"
+              className="hover:text-blue-500 transition-colors duration-300"
+            >
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/social"
+              className="hover:text-blue-500 transition-colors duration-300"
+            >
+              Social Media
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/contact"
+              className="hover:text-blue-500 transition-colors duration-300"
+            >
+              Contact
+            </Link>
+          </li>
+        </ul>
       </div>
-      <ul>
-      <li><Link to="/">Home</Link></li>
-      <li><Link to="/about">About</Link></li>
-      <li><Link to="/projects">Projects</Link></li>
-      <li><Link to="/social">Social Media</Link></li>
-      <li><Link tp="/contact">Contact</Link></li>
-      </ul>
     </div>
-  )
+  );
 }
 
-
-export default Navbar
+export default Navbar;
