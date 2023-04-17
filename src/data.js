@@ -51,9 +51,25 @@ export const projects = [
 
   export const testimonials = [
     {
-      title: "testimonial",
-      subtitle: "People who like me",
-      description: 
-      "I like this"
+      quote:
+        "He is the most creative/artistic person I know. The way he is able to think of ideas for websites blows me away.",
+      name: "John Minney",
+      company: "Code Network",
+      // image: "",
+    },
+    {
+      quote:
+        "I was blown away by the quality of work and the level of professionalism displayed by this developer. He is truly someone to watch out for.",
+      name: "Olli Machina",
+      company: "Emergent Media Center",
+      // image: "",
+    },
+    {
+      quote:
+        "He is a great developer and has a knack for improving his craft",
+      name: "Riley Peterson",
+      company: "Independent Software Engineer",
+      // image: "",
     },
   ];
+  
