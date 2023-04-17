@@ -24,3 +24,21 @@ export const projects = [
     //   link: "",
     },
   ];
+
+  export const skills = [
+    {
+      title: "Figma",
+      subtitle: "Figma Art",
+      description: 
+      "I use Figma to make websites look pretty",
+    },
+  ];
+
+  export const testimonials = [
+    {
+      title: "testimonial",
+      subtitle: "People who like me",
+      description: 
+      "I like this"
+    }
+  ]
