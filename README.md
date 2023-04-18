@@ -11,7 +11,7 @@
 This is my personal portfolio created using React. Dive into a little piece of me and see my previous projects, look into my about me, and even share your information to get in contact with me.
 
 # Screenshot
-![alt text](/jesus_portfolio/public/jesus_screenshot1.png "Portfolio Screenshot")
+![Screenshot](/jesus_portfolio/public/jesus_screenshot1.png)
 
 # Live URL:
 This application is deployed on Github Pages
