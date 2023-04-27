@@ -23,15 +23,17 @@ export const projects = [
       image: "./character_gen.png",
     //   link: "",
     },
+    {
+      title: "This is Olive Oil",
+      subtitle: "Olive Oil",
+      description:
+        "I know this sound weird but this is a website that came to me out of nowhere. One day I was listening to music and this popped into my head. It lets people know I can make a nice website out of anything and make it stylish. ",
+      image: "./character_gen.png", //placeholder add actual image here
+    //   link: "",
+    },
   ];
 
   export const skills = [
-    {
-      name: "JavaScript",
-    },
-    {
-      name: "React",
-    },
     {
       name: "HTML",
     },
@@ -39,10 +41,16 @@ export const projects = [
       name: "CSS",
     },
     {
+      name: "Javascript",
+    },
+    {
       name: "Figma",
     },
     {
-      name: "Adobe",
+      name: "React",
+    },
+    {
+      name: "Graphic Design",
     },
   
     
@@ -59,7 +67,7 @@ export const projects = [
     },
     {
       quote:
-        "I was blown away by the quality of work and the level of professionalism displayed by this developer. He is truly someone to watch out for.",
+        "I was amazed by the quality of work and the level of professionalism displayed by this developer. He is truly someone to watch out for.",
       name: "Olli Machina",
       company: "Emergent Media Center",
       // image: "",
@@ -69,6 +77,13 @@ export const projects = [
         "He is a great developer and has a knack for improving his craft",
       name: "Riley Peterson",
       company: "Autodesk",
+      // image: "",
+    },
+    {
+      quote:
+        "One of the most artistic people I have ever met. I wish I had a mind like him.",
+      name: "Christian Roby",
+      company: "Independent Developer",
       // image: "",
     },
   ];
